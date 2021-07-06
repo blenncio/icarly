@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Cousine:wght@700&family=Heebo&family=Krona+One&family=Reem+Kufi:wght@500&family=Righteous&family=Sora:wght@400;500&display=swap');
+#cositos {
+    font-family: Reem Kufi;
+    color: whitesmoke;
+}
+ul{
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+    flex-flow: wrap;
+    
+}
+nav {
+    background-color: rebeccapurple;
+    height: 50px;
+}
+p {
+    font-family: Sora;
+}
