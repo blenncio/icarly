@@ -1,23 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Cousine:wght@700&family=Heebo&family=Krona+One&family=Reem+Kufi:wght@500&family=Righteous&family=Sora:wght@400;500&display=swap');
-#cositos {
-    font-family: Reem Kufi;
-    color: whitesmoke;
+body {
+    background-color: #908fe4;
+  }
+header {
+    width: 100%;
+    overflow: hidden;
+    background-color: #7139A7;
 }
-ul{
-
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 70%;
-    margin: auto;
-    flex-flow: wrap;
-    
+header .logo {
+    float: left;
+    width:20%;
 }
-nav {
-    background-color: rebeccapurple;
-    height: 50px;
+header nav {
+    float: right;
+    line-height: 20px;
+}
+header nav a {
+	display:inline-block;
+	color:#DFEBF2;
+	text-decoration:none;
+	padding:20px 20px;
+	line-height:normal;
+	font-size:25px;
+    font-family: Krona One;
+}
+header nav a:hover {
+    color: #EEF266;
+}
+.container {
+    float: left;
+    width: 80%;
 }
 p {
     font-family: Sora;
+}
+aside{
+    float: right;
+    width: 20%;
+}
+article {
+    float: left;
+    width: 95%;
+}
+h4 {
+    font-family: Krona One;
 }
